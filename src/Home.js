@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./App.css";
 import background from "./images/background.png";
 import mainLogo from "./images/logo.png";
@@ -11,13 +12,16 @@ export default function Home() {
           <img className="main-logo-image" src={mainLogo} alt="mainLogo" />
         </figure>
         <hr className="hr-line" />
-        <form className="main-form" action="">
+        {/* <form className="main-form" action="">
           <input
             className="main-button"
             type="button"
             value="რეზიუმეს დამატება"
           />
-        </form>
+        </form> */}
+        <Link className="main-button" to="registration">
+          რეზიუმეს დამატება
+        </Link>
         <img className="logo-absolute" src={LogoAbsolute} alt="LogoAbsolute" />
       </div>
     </div>
