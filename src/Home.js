@@ -12,13 +12,7 @@ export default function Home() {
           <img className="main-logo-image" src={mainLogo} alt="mainLogo" />
         </figure>
         <hr className="hr-line" />
-        {/* <form className="main-form" action="">
-          <input
-            className="main-button"
-            type="button"
-            value="რეზიუმეს დამატება"
-          />
-        </form> */}
+      
         <Link className="main-button" to="registration">
           რეზიუმეს დამატება
         </Link>

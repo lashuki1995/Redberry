@@ -2,6 +2,7 @@ import mail from "./images/mail.png";
 import number from "./images/phone.png";
 import profile from "./images/profileimg.png";
 import infologo from "./images/LogoRight.png";
+import ResumeComponent from "./components/Resumeee";
 
 const Resume = () => {
   return (
@@ -24,47 +25,44 @@ const Resume = () => {
           </span>
         </span>
         <section className="person-info">
-          <div className="person-main-info">
-            <h3 className="personal-info-about-me">ჩემ შესახებ</h3>
-            <p className="personal-info-about-me-yes">
-              ძალიან მიყვარს დიზაინის კეთება. დლით ადრე რომ ავდგები
-              გამამხნევებელი ვარჯიშების მაგიერ დიზაინს ვაკეთებ.
-            </p>
-            <hr className="personal-info-line" />
-          </div>
+          <ResumeComponent
+            title="ჩემ შესახებ"
+            resourse="ძალიან მიყვარს დიზაინის კეთება. დილით ადრე რომ 
+            ავდგები გამამხნევებელი ვარჯიშების მაგიერ დიზაინს ვაკეთებ."
+          />
           <div className="for-overflow">
-            <div className="person-main-info2">
-              <h3 className="person-info-information">გამოცდილება</h3>
-              <span className="person-info-information-known">
-                React Native Developer, Microsoft
-              </span>
-              <span className="person-info-information-known-date">
-                2020-09-23 - 2020-09-23
-              </span>
-              <span className="person-info-information-known-datee">
-                Experienced Javascript Native Developer with 5 years in the
-                industry. proficient withreact. Used problem-solving aptitude to
-                encahge application performance by 14%.created data
-                visualisation tools and integrated designs.
-              </span>
-              <hr className="person-info-information-line2" />
-            </div>
-            <div className="person-main-info2">
-              <h3 className="person-info-information">განათლება</h3>
-              <span className="person-info-information-known">
-                წმ. ანდრიას საპატრიარქოს სასწავლებელი, სტუდენტი
-              </span>
-              <span className="person-info-information-known-date">
-                2020-09-23
-              </span>
-              <span className="person-info-information-known-datee">
-                ვსწავლობდი გულმოდგინეთ. მყავდა ფრიადები. რაც შემეძლო — ვქენი.
-                კომპიუტერები მიყვარდა. ვიჯექი ჩემთვის, ვაკაკუნებდი ამ
-                კლავიშებზე. მეუნებოდნენ — დაჯექი, წაიკითხე რამე, რას აკაკუნებ,
-                დრო მოვა და ჩაგიკაკუნებსო. აჰა, მოვიდა დრო და ვერა ვარ
-                დეველოპერი?
-              </span>
-            </div>
+            <ResumeComponent
+              title="გამოცდილება"
+              experience="React Native Developer, Microsoft"
+              date="2020-09-23 - 2020-09-23"
+              text="Experienced Javascript Native Developer with 5 years in the industry.
+               proficient withreact. Used problem-solving aptitude to encahge application
+                performance by 14%.created data visualisation tools and integrated designs. "
+            />
+            <ResumeComponent
+              title="განათლება"
+              experience="წმ. ანდრიას საპატრიარქოს სასწავლებელი, სტუდენტი"
+              date="2020-09-23"
+              text="ვსწავლობდი გულმოდგინეთ. მყავდა ფრიადები. რაც შემეძლო — ვქენი. კომპიუტერები მიყვარდა.
+               ვიჯექი ჩემთვის, ვაკაკუნებდი ამ კლავიშებზე. მეუნებოდნენ — დაჯექი, წაიკითხე რამე, რას აკაკუნებ, დრო მოვა 
+               და ჩაგიკაკუნებსო. აჰა, მოვიდა დრო და ვერა ვარ დეველოპერი? "
+            />
+            <ResumeComponent
+              title="განათლება"
+              experience="წმ. ანდრიას საპატრიარქოს სასწავლებელი, სტუდენტი"
+              date="2020-09-23"
+              text="ვსწავლობდი გულმოდგინეთ. მყავდა ფრიადები. რაც შემეძლო — ვქენი. კომპიუტერები მიყვარდა.
+               ვიჯექი ჩემთვის, ვაკაკუნებდი ამ კლავიშებზე. მეუნებოდნენ — დაჯექი, წაიკითხე რამე, რას აკაკუნებ, დრო მოვა 
+               და ჩაგიკაკუნებსო. აჰა, მოვიდა დრო და ვერა ვარ დეველოპერი? "
+            />
+            <ResumeComponent
+              title="განათლება"
+              experience="წმ. ანდრიას საპატრიარქოს სასწავლებელი, სტუდენტი"
+              date="2020-09-23"
+              text="ვსწავლობდი გულმოდგინეთ. მყავდა ფრიადები. რაც შემეძლო — ვქენი. კომპიუტერები მიყვარდა.
+               ვიჯექი ჩემთვის, ვაკაკუნებდი ამ კლავიშებზე. მეუნებოდნენ — დაჯექი, წაიკითხე რამე, რას აკაკუნებ, დრო მოვა 
+               და ჩაგიკაკუნებსო. აჰა, მოვიდა დრო და ვერა ვარ დეველოპერი? "
+            />
           </div>
         </section>
         <figure className="person-info-logo">

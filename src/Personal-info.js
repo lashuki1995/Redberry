@@ -9,7 +9,7 @@ export default function Personal() {
   return (
     <div className="main-information">
       <div className="information-main-coteiner">
-        <Headerr titleName="პირადი ინფო" titlePagee="1/3"  />
+        <Headerr titleName="პირადი ინფო" titlePagee="1/3" />
         <form className="information-main1-conteiner">
           <div className="information-name-lastName">
             <Input

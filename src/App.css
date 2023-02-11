@@ -52,6 +52,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+  text-decoration: none;
 }
 
 .logo-absolute {
@@ -335,31 +336,31 @@
   border: 1px solid #c8c8c8;
 }
 .person-info-information-known {
-  display: block;
+  /* display: block;
   font-weight: bolder;
-  margin-top: 15px;
+  margin-top: 15px; */
 }
 .titlee {
   margin-top: 30px;
 }
 .person-info-information-known-date {
-  display: block;
+  /* display: block;
   color: #909090;
-  margin-top: 5px;
+  margin-top: 5px; */
 }
 .person-info-information-known-datee {
-  display: block;
+  /* display: block;
   margin-top: 15px;
   width: 95%;
-  line-height: 25px;
+  line-height: 25px; */
 }
 .person-info-information {
-  margin-top: 20px;
-  color: #f93b1d;
+  /* margin-top: 20px;
+  color: #f93b1d; */
 }
 .person-info-information-line2 {
-  margin-top: 20px;
-  border: 1px solid #c8c8c8;
+  /* margin-top: 20px;
+  border: 1px solid #c8c8c8; */
 }
 .person-info-profile {
   right: -20px;
